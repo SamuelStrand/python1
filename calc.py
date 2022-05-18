@@ -1,5 +1,5 @@
 import math
-def calc(number1, number2, oper):
+def calc(number1 = 0, oper = "+",  number2 = 10 ):
     print(number1, number2, oper)
     if oper == "+":
         return number1 + number2
@@ -52,6 +52,11 @@ print(result)
 result = calc(10, 4, "%")
 print(result)
 
+result = calc()
+print(result)
+
+result1 = calc(oper="/", number1= 10, number2= 2)
+print(result1)
 
 
 
