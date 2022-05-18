@@ -1,3 +1,4 @@
+import math
 def calc(number1, number2, oper):
     print(number1, number2, oper)
     if oper == "+":
@@ -19,7 +20,6 @@ def calc(number1, number2, oper):
         else:
             print("Вы ввели ноль")
             return (print("Введите другое число"))
-    import math
     if oper == "math.sqrt":
         return math.sqrt(number1), math.sqrt(number2)
     if oper == "%":
