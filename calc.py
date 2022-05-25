@@ -1,4 +1,5 @@
 import math
+def calc3(number1, number2, oper):
 def calc(number1, number2, oper):
     print(number1, number2, oper)
     if oper == "+":
@@ -54,7 +55,6 @@ print(result)
 
 result1 = calc(oper="/", number1= 10, number2= 2)
 print(result1)
-
 
 
 
